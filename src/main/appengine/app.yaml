@@ -1,0 +1,10 @@
+runtime: java11
+entrypoint: 'java -jar com.example.ktor-mongodb-all.jar'
+env_variables:
+  MONGODB_USER: 'devkd-db'
+  MONGODB_PASSWORD: 'Dev%40123%40'
+  MONGODB_DATABASE: 'testdb'
+  JWT_AUDIENCE: 'test_audience'
+  JWT_REALM: 'test_realm'
+  JWT_ISSUER: 'test_issuer'
+  JWT_SECRET: 'test_password'
